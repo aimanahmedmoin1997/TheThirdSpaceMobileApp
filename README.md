@@ -1,4 +1,4 @@
-## Welcome to GitHub Pages
+## The Third Space - Mobile App Built on React Native using Expo CLI
 
 You can use the [editor on GitHub](https://github.com/aimanahmedmoin1997/TheThirdSpaceMobileApp/edit/master/README.md) to maintain and preview the content for your website in Markdown files.
 
