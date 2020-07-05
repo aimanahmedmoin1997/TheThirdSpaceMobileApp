@@ -1,7 +1,9 @@
 {
   "expo": {
-    "name": "TTS",
-    "slug": "TTS",
+    "name": "The Third Space",
+    "slug": "first",
+    "privacy": "public",
+    "sdkVersion": "36.0.0",
     "platforms": [
       "ios",
       "android",
@@ -24,7 +26,10 @@
     "ios": {
       "supportsTablet": true
     },
-    "description": "E-Commerce Mobile App built on React Native",
+    "androidStatusBar": {
+      "backgroundColor": "#191919"
+    },
+    "description": "E-Commerce App - The Third Space",
     "githubUrl": "https://github.com/aimanahmedmoin1997/TheThirdSpaceMobileApp"
   }
 }
