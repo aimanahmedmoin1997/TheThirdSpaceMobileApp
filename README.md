@@ -2,11 +2,9 @@
 
 Download Expo-Client for [Android](http://bit.ly/2bZq5ew) or [iOS](http://apple.co/2c6HMtp)
 
+Open the published app through Expo-Client at [The Third Space](https://expo.io/--/to-exp/exp%3A%2F%2Fexp.host%2F%40aamoin%2Ffirst)
 
-You can use the [editor on GitHub](https://github.com/aimanahmedmoin1997/TheThirdSpaceMobileApp/edit/master/README.md) to maintain and preview the content for your website in Markdown files.
-
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
-
+Group Members: Aiman Ahmed Moin, Ubaid Ali and Ahsan Qadeer
 ### Markdown
 
 Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
