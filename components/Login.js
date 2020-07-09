@@ -35,7 +35,7 @@ export default class Login extends React.Component {
         <Input
           style={styles.textInput}
           autoCapitalize="none"
-          placeholder={"Email"}
+          placeholder={"ای-میل آئی ڈی"}
           keyboardType={"email-address"}
           onChangeText={(email) => this.setState({ email })}
           value={this.state.email}
@@ -44,17 +44,17 @@ export default class Login extends React.Component {
           secureTextEntry={true}
           style={styles.textInput}
           autoCapitalize="none"
-          placeholder={"Password"}
+          placeholder={"پاسورڈ"}
           onChangeText={(password) => this.setState({ password })}
           value={this.state.password}
         />
         <FilledButton
-          title={"Login"}
+          title={"لاگ اِن"}
           style={styles.loginButton}
           onPress={this.handleLogin}
         />
         <TextButton
-          title="Don't have an account? Sign Up"
+          title="اکاونٹ نہیں ہے؟ نیا بنایئے"
           onPress={() => this.props.navigation.navigate("SignUp")}
         />
       </View>

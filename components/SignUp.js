@@ -31,12 +31,12 @@ export default class SignUp extends React.Component {
   render() {
     return (
       <View style={styles.container}>
-        <Heading style={styles.title}>Sign Up</Heading>
+        <Heading style={styles.title}>سائن اَپ</Heading>
         {this.state.errorMessage && (
           <Text style={{ color: "red" }}>{this.state.errorMessage}</Text>
         )}
         <Input
-          placeholder={"Email"}
+          placeholder={"ای-میل آئی ڈی"}
           autoCapitalize="none"
           style={styles.textInput}
           keyboardType={"email-address"}
@@ -45,19 +45,19 @@ export default class SignUp extends React.Component {
         />
         <Input
           secureTextEntry={true}
-          placeholder={"Password"}
+          placeholder={"پاسورڈ"}
           autoCapitalize="none"
           style={styles.textInput}
           onChangeText={(password) => this.setState({ password })}
           value={this.state.password}
         />
         <FilledButton
-          title={"Sign Up"}
+          title={"سائن اَپ"}
           style={styles.signupButton}
           onPress={this.handleSignUp}
         />
         <TextButton
-          title="Already have an account? Login"
+          title="آپکا اکاؤنٹ موجود ہے؟ لاگ اِن"
           onPress={() => this.props.navigation.navigate("Login")}
         />
       </View>

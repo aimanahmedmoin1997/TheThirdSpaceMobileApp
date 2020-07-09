@@ -20,33 +20,33 @@ class AddProduct extends Component {
           >
             Add Product
           </Text>
-          <Text>Product Name:</Text>
+          <Text>پروڈکٹ کا نام:</Text>
           <Input style={styles.textInput} placeholder={"Product Name"} />
-          <Text>Product Description:</Text>
+          <Text>پروڈکٹ کی تفصیل:</Text>
           <Input
             style={styles.textInput}
             placeholder={"Product Description"}
             multiline={true}
           />
-          <Text>Product Quantity:</Text>
+          <Text>پروڈکٹ کی تعداد:</Text>
           <Input
             style={styles.textInput}
             placeholder={"Quantity"}
             keyboardType={"number-pad"}
           />
-          <Text>Product Price:</Text>
+          <Text>پروڈکٹ کی قیمت:</Text>
           <Input
             style={styles.textInput}
             placeholder={"Price (Rs.)"}
             keyboardType={"number-pad"}
           />
-          <Text>Product Type:</Text>
+          <Text>پروڈکٹ کی قسم:</Text>
           <Input style={styles.textInput} placeholder={"Insert Tags"} />
         </View>
         <View style={styles.footerButton}>
-          <FilledButton title={"Save"} style={styles.fillButtonDown} />
+          <FilledButton title={"جمع کیجئے"} style={styles.fillButtonDown} />
           <FilledButton
-            title={"Back"}
+            title={"واپس پیچھے"}
             style={styles.fillButtonDown}
             onPress={() => this.props.navigation.navigate("Dashboard")}
           />
